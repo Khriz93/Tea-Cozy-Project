@@ -101,28 +101,46 @@ header img {
 
 }
 
-.locations-title {
-    font-size: 32px;
-    text-align: center;
-    margin: 80px auto;
-    opacity: 0.9;
+.locations-title-container {
+    width: 200px;
+    height: 50px;
+    margin: 50px auto;
+    opacity: 0.7;
 }
 
-.downtown-text-container {
+.locations-title h2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.locations-text-container {
+    margin: 40px -370px;
+    width: 1000px;
+    display: flex;
+
+}
+
+.downtown-text-container, .east-bayside-text-container, .oakdale-text-container {
     width: 300px;
-    height: 300px;
+    height: 270px;
     background-color: rgba(1, 1, 1, 1);
     text-align: center;
-    margin: 50px;
+    margin: 15px 40px 0 0;
 }
 
-.downtown-text-container h3 {
+.downtown-text-container h3, .east-bayside-text-container h3, .oakdale-text-container h3 {
     font-size: 28px;
-    margin: 15px;
+    padding: 25px;
 }
+
+.downtown-text-container p, .east-bayside-text-container p, .oakdale-text-container p {
+    margin: 0 24px 24px;
+    padding: 0;
+}
+
 
 .downtown-text-container p {
-    margin: 20px;
+    padding: 5px;
 }
 
 
