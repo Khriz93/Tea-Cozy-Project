@@ -104,7 +104,7 @@ header img {
 .locations-title-container {
     width: 200px;
     height: 50px;
-    margin: 50px auto;
+    margin: 70px auto 40px;
     opacity: 0.7;
 }
 
@@ -117,12 +117,11 @@ header img {
     margin: 40px -370px;
     width: 1000px;
     display: flex;
-
 }
 
 .downtown-text-container, .east-bayside-text-container, .oakdale-text-container {
     width: 300px;
-    height: 270px;
+    height: 260px;
     background-color: rgba(1, 1, 1, 1);
     text-align: center;
     margin: 15px 40px 0 0;
@@ -138,9 +137,24 @@ header img {
     padding: 0;
 }
 
-
 .downtown-text-container p {
     padding: 5px;
+}
+
+.the-tea-cozy {
+    width: 100%;
+    height: 200px;
+    opacity: 0.5;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.the-tea-cozy h2 {
+    font-size: 32px;
+}
+
+.the-tea-cozy h2, .the-tea-cozy h5 {
+    padding: 20px;
 }
 
 
