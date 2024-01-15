@@ -157,5 +157,14 @@ header img {
     padding: 20px;
 }
 
+.copyright {
+    margin: 40px 0 20px 20px;
+    opacity: 0.5;
+}
+
+.copyright h5 {
+    text-align: left;
+}
+
 
 
